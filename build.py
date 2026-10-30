@@ -25,7 +25,7 @@ nav a:hover{color:var(--text)}
 h1{font-size:40px;line-height:1.1;margin:0 0 12px;letter-spacing:-1px}
 h2{font-size:20px;margin:32px 0 8px}
 .lead{color:var(--dim);font-size:18px;margin:0 0 32px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:32px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:32px 0}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:18px}
 .card b{display:block;margin-bottom:4px}
 .card span{color:var(--dim);font-size:14px}
