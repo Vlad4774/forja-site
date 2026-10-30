@@ -76,8 +76,8 @@ TERMS = [
         "You can delete your account at any time from Profile → Account → Delete account.",
     ]),
     ("Free version and Premium", [
-        "Forja is free to use and shows ads. Forja Premium is an optional subscription that removes the ads and unlocks ready-made programs, the recommended plan, progress charts, strength ranks, the muscle map and muscle recovery. Your workout history is always available, with or without Premium.",
-        "The price and any free trial are shown in Google Play, in your own currency, before you subscribe. The subscription renews automatically until you cancel.",
+        "Forja is free to use and shows ads. Workout logging, programs, the recommended plan and your full history are free. Forja Premium is an optional subscription that removes the ads and unlocks progress charts, strength ranks, the muscle map and muscle recovery.",
+        "Every new account gets Premium free for its first 30 days. No payment details are needed and nothing is charged; afterwards the app simply continues as the free version. The price of the subscription and any free trial are shown in Google Play, in your own currency, before you subscribe. The subscription renews automatically until you cancel.",
         "Payments, renewals and refunds are handled by Google Play. Cancel at least 24 hours before the trial or period ends to avoid the next charge: Google Play → Payments & subscriptions → Subscriptions.",
     ]),
     ("Health", ["Forja gives general training suggestions (programs, weights, recovery estimates). It is not medical advice. Check with a doctor before starting a new exercise program, and stop if you feel pain."]),
@@ -91,7 +91,7 @@ PRIVACY = [
         "Account: your email address and a securely hashed password. If you sign in with Google, we receive your name, email address and profile picture from Google instead of a password.",
         "Training data you enter: workouts, sets, programs, body weight and measurements, and the answers from the setup questions (goal, experience, injuries you choose to tell us about).",
         "Subscription status from Google Play (through RevenueCat). We never see your card details.",
-        "In the free version: ads are shown by Google AdMob, which uses device identifiers (such as the advertising ID), your approximate location from the IP address and how you interact with ads. Personalised ads are shown only if you agree in the consent form; you can change your choice at any time in Profile → Ad choices.",
+        "In the free version: ads are shown by Google AdMob and its advertising partners (listed in the consent form). They use device identifiers (such as the advertising ID), your location (approximate from the IP address, or more precise only if you allow it in the consent form) and how you interact with ads. Personalised ads are shown only if you agree in the consent form; you can change your choice at any time in Profile → Ad choices.",
     ]),
     ("Why", ["To run the app (log you in, back up and sync your data between your phones, unlock Premium) and, in the free version, to show ads through Google AdMob. Your training data is never shared with advertisers and never sold."]),
     ("Where it is stored", [
@@ -117,7 +117,7 @@ page(
   <div class="card"><b>Progress</b><span>Records, estimated 1RM, streaks and a muscle map of your week.</span></div>
   <div class="card"><b>Works offline</b><span>Your data lives on your phone and syncs to your account.</span></div>
 </div>
-<p class="muted">Forja is free with ads. Forja Premium removes the ads and unlocks programs and advanced stats.</p>
+<p class="muted">Forja is free with ads, programs included. New accounts get a free month of Premium, which removes the ads and unlocks advanced stats.</p>
 <p class="muted">Questions? Write to <a href="mailto:""" + CONTACT + """">""" + CONTACT + """</a>.</p>""",
     "Forja is a simple workout log: track sets, follow programs and see your progress.",
 )
