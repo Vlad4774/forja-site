@@ -4,7 +4,7 @@ import html
 import pathlib
 
 CONTACT = "vladbaracut7@yahoo.com"
-UPDATED = "October 2026"
+UPDATED = "November 2026"
 OUT = pathlib.Path(__file__).parent
 
 LOGO = (
@@ -94,8 +94,12 @@ PRIVACY = [
         "In the free version: ads are shown by Google AdMob and its advertising partners (listed in the consent form). They use device identifiers (such as the advertising ID), your location (approximate from the IP address, or more precise only if you allow it in the consent form) and how you interact with ads. Personalised ads are shown only if you agree in the consent form; you can change your choice at any time in Profile → Ad choices.",
     ]),
     ("Why", ["To run the app (log you in, back up and sync your data between your phones, unlock Premium) and, in the free version, to show ads through Google AdMob. Your training data is never shared with advertisers and never sold."]),
+    ("Sharing you choose", [
+        "Ranking (optional): if you join the ranking, other Forja users see the username you choose, an optional short description, your monthly and yearly workout count and volume, your ranks, level and ranking badges. Never your email. You can leave the ranking at any time.",
+        "Coaches (optional): if you accept an invitation from a personal trainer who uses Forja, that trainer can see your synced training data (workouts and sets, history, programs and routines, body weight and measurements, settings) and can send you routines and programs. Progress photos are never shared. You can stop sharing at any time in Profile → Coaching; the trainer loses access immediately.",
+    ]),
     ("Where it is stored", [
-        "On your phone, and in your account on Supabase servers in the EU (Ireland). Data is sent over encrypted connections and each account can only read its own data.",
+        "On your phone, and in your account on Supabase servers in the EU (Ireland). Data is sent over encrypted connections and each account can only read its own data, except what you choose to share (see above).",
         "Service providers: Supabase (database and login), Google (Sign in with Google), RevenueCat and Google Play (subscription), Google AdMob (ads in the free version), and an email provider for the verification codes.",
     ]),
     ("Permissions", ["Notifications (optional): only to show your running workout and rest timer in the notification bar. Files: only when you download your data yourself."]),
